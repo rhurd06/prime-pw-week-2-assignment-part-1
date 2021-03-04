@@ -3,22 +3,22 @@ console.log( 'js' );
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
 const firstName = 'Robyn';
-console.log( firstName);
+console.log ('My first name is ' + firstName);
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
-const lastName = 'Noble';
-console.log( lastName);
+const lastName = ' Noble';
+console.log('My last name is' + lastName);
 
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
 const fullName = firstName + lastName;
 
 // 4 - Console log the value of `fullName`
-console.log( fullName );
+console.log( 'My full name is ' + fullName );
 
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 let luckyNumber = 13;
-console.log( luckyNumber );
+console.log( 'My lucky number is ' + luckyNumber );
 // 6 - Console log this sentence, adding in the variables you created above:
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -35,19 +35,19 @@ console.log( food );
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 let pets = 1;
-console.log( pets );
+console.log( 'I have ' + pets + ' pet' );
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 5;
-console.log( friendsPets);
+console.log( 'My friends have a total of ' + friendsPets + ' pets');
 
 // 11 - Add two pets to your `pets` variable
 pets = 3;
-console.log( pets );
+console.log('I got two more pets, so now I have a total of ' + pets + ' pets');
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 3;
-console.log( allowedPets );
+console.log('The most pets I am allowed to have at my home is ' + allowedPets );
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
@@ -80,15 +80,15 @@ if ( pets >= friendsPets) {console.log( 'My pets');}
 else if (friendsPets >= pets) {console.log( 'My friends pets');}
 else {console.log( 'Same amount of pets');}
 mostPets = friendsPets
-console.log(friendsPets);
+console.log('My friends have the most pets at a total of ' +friendsPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 switch (pets >= friendsPets) {
   case true:
-    console.log(mostPets);
+    console.log('I have the most pets at a total of ' + mostPets);
     break;
   case false:
-    console.log(mostPets);
+    console.log('My friends have the most pets with a total of ' +mostPets);
     break;
     default: console.log('Something went wrong');
 }
